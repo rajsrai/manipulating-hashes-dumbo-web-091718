@@ -12,7 +12,7 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-contacts ["Freddy Mercury"] key >= "cookie dough" }
+contacts ["Freddy Mercury"].each do  key >= "cookie dough" }
   #your code here
 
 
