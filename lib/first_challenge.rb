@@ -12,7 +12,7 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-contacts["Freddy Mercury"].delete_if["strawberry"]
+contacts["Freddy Mercury"].delete_if[0]
   #your code here
 
 
