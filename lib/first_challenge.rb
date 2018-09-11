@@ -13,6 +13,7 @@ def first_challenge
     }
   }
 contacts ["Freddy Mercury"].each do  | attribute, value |
+  if attribute == "strawberry"
   #your code here
 
 
